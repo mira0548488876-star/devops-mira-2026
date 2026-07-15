@@ -65,11 +65,11 @@
       changed_when: true
 
     - name: Wait for backend rollout
-      ansible.builtin.command: kubectl rollout status deployment/backend -n shoplist --timeout=120s
+      ansible.builtin.command: kubectl rollout status deployment/backend -n shoplist --timeout=300s
       changed_when: false
 
     - name: Wait for frontend rollout
-      ansible.builtin.command: kubectl rollout status deployment/frontend -n shoplist --timeout=120s
+      ansible.builtin.command: kubectl rollout status deployment/frontend -n shoplist --timeout=300s
       changed_when: false
 
     - name: Print app URL
