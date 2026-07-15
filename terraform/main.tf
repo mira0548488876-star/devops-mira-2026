@@ -56,7 +56,7 @@ resource "aws_security_group" "shoplist" {
 }
 
 resource "aws_iam_role" "ssm" {
-  name = "${var.cluster_name}-ssm-role"
+name = "${var.cluster_name}-ssm-role-v2"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
