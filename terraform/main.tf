@@ -74,7 +74,7 @@ resource "aws_iam_role_policy_attachment" "ssm" {
 }
 
 resource "aws_iam_instance_profile" "ssm" {
-  name = "${var.cluster_name}-ssm-profile"
+  name = "${var.cluster_name}-ssm-profile-v2"
   role = aws_iam_role.ssm.name
 }
 
