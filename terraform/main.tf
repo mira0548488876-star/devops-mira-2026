@@ -27,7 +27,7 @@ data "aws_ami" "ubuntu" {
 }
 
 resource "aws_security_group" "shoplist" {
-  name        = "${var.cluster_name}-sg-v4"
+  name        = "${var.cluster_name}-sg-v5"
   description = "SSH + minikube NodePort for the ${var.cluster_name} lab instance"
   vpc_id      = data.aws_vpc.default.id
 
@@ -56,7 +56,7 @@ resource "aws_security_group" "shoplist" {
 }
 
 resource "aws_iam_role" "ssm" {
-name = "${var.cluster_name}-ssm-role-v4"
+name = "${var.cluster_name}-ssm-role-v5"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
@@ -74,7 +74,7 @@ resource "aws_iam_role_policy_attachment" "ssm" {
 }
 
 resource "aws_iam_instance_profile" "ssm" {
-  name = "${var.cluster_name}-ssm-profile-v4"
+  name = "${var.cluster_name}-ssm-profile-v5"
   role = aws_iam_role.ssm.name
 }
 
