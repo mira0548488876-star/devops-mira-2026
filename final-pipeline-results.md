@@ -4,34 +4,28 @@ This file contains the links to the active pipelines and verification of the run
 
 ## 🔗 Pipeline Links
 
-*   **Infrastructure Deployment (Terraform Pipeline):** 
-    [Link to GitHub Actions Workflow](https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>/actions/workflows/create-infra.yml)
-*   **Application CI/CD Pipeline:** 
-    [Link to GitHub Actions Application Workflow](https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>/actions/workflows/<YOUR_APP_PIPELINE>.yml)
-
----
+   **Infrastructure Deployment (Terraform Pipeline):** 
+ https://github.com/mira0548488876-star/devops-mira-2026/actions/runs/29684651313
+   **Application CI/CD Pipeline:**    
+**https://github.com/mira0548488876-star/devops-mira-2026/actions/workflows/ci-cd.yml
 
 ## 🖥️ Live Application
 
 Once the infrastructure is ready and the application is deployed, the application can be accessed via:
-*   **Public IP/DNS:** `http://<EC2_PUBLIC_IP>:<PORT>`
-*   *(Note for NetFree users: Please request to open this IP/domain if it is currently filtered).*
+*   **Public IP/DNS:** `http:18.201.141.50:30080//`
+* 
 
 ---
 
 ## 📸 Screenshots & Verification
 
 ### 1. Terraform Deployment Pipeline Status
-*Add a screenshot showing the successful run (green status) of your infrastructure pipeline here.*
+<img width="1602" height="587" alt="צילום מסך 2026-07-19 144613" src="https://github.com/user-attachments/assets/77793b2d-f591-464a-9f1c-8f1cc4b2c012" />
 
-![Terraform Pipeline Success](path/to/your/terraform-success-screenshot.png)
 
 ### 2. Application Deployment Pipeline Status
-*Add a screenshot showing the successful run (green status) of your CI/CD pipeline here.*
+<img width="1686" height="790" alt="image" src="https://github.com/user-attachments/assets/5bdca793-0f24-48fd-8668-73610f5fabc9" />
 
-![App Pipeline Success](path/to/your/app-success-screenshot.png)
 
 ### 3. Application Running Live
-*Add a screenshot of your browser displaying the running application on your newly created EC2 instance.*
 
-![App Running Live](path/to/your/app-live-screenshot.png)
