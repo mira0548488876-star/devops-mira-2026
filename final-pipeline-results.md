@@ -28,4 +28,6 @@ Once the infrastructure is ready and the application is deployed, the applicatio
 
 
 ### 3. Application Running Live
+<img width="1911" height="697" alt="image" src="https://github.com/user-attachments/assets/610276f3-443f-4630-83b1-3e5f746ce635" />
+
 
